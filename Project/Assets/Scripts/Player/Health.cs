@@ -4,7 +4,7 @@ using System.Collections;
 public class Health : PickUp 
 {
 	public int m_MaxHealth;
-	int m_CurrentHealth;
+	float m_CurrentHealth;
 
 	public float m_RevivingTime;
 	float m_Timer;
@@ -31,7 +31,7 @@ public class Health : PickUp
 
 	protected override bool CanBeCollectedVirtual (Interaction interaction)
 	{
-		return (m_CurrentHealth <= 0) ? true : false;
+		return (m_CurrentHealth <= 0.0f) ? true : false;
 	}
 
 	protected override void CollectionComplete ()
@@ -53,18 +53,18 @@ public class Health : PickUp
 
 	void Revive()
 	{
-		m_CurrentHealth = (int) (m_MaxHealth * GameConstants.REVIVAL_HEALTH_MULTIPLIER);
+		m_CurrentHealth = m_MaxHealth * GameConstants.REVIVAL_HEALTH_MULTIPLIER;
 
 		Resurrect ();
 	}
 
-	public void Damage(int damageAmount)
+	public void Damage(float damageAmount)
 	{
 		m_CurrentHealth -= damageAmount;
 
-		if(m_CurrentHealth <= 0)
+		if(m_CurrentHealth <= 0.0f)
 		{
-			m_CurrentHealth = 0;
+			m_CurrentHealth = 0.0f;
 
 			Die ();
 		}
