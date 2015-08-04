@@ -5,10 +5,23 @@ public class HealthBox : PickUp
 {
 	public int m_HealthAmount;
 
-	protected override bool CollectVirtual (Interaction interaction)
+	protected override void CollectVirtual (Interaction interaction)
+	{
+		if(interaction)
+		{
+			Health health = interaction.GetComponent<Health>();
+			
+			if(health != null)
+			{
+                health.Heal (m_HealthAmount);
+			}
+		}
+	}
+
+	protected override bool CanBeCollectedVirtual (Interaction interaction)
 	{
 		Health health = interaction.GetComponent<Health>();
-
+		
 		if(health != null)
 		{
 			if(!health.NeedsHealing())
@@ -16,15 +29,13 @@ public class HealthBox : PickUp
 				return false;
 			}
 			else
-			{
-				health.Heal (m_HealthAmount);
-				
-				return true;
-			}
-		}
-		else
-		{
-			return false;
-		}
+			{                
+                return true;
+            }
+        }
+        else
+        {
+            return false;
+        }
 	}
 }

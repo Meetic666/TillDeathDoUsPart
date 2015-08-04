@@ -1,24 +1,57 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Health : MonoBehaviour 
+public class Health : PickUp 
 {
 	public int m_MaxHealth;
 	int m_CurrentHealth;
 
+	public float m_RevivingTime;
+	float m_Timer;
+
 	// Use this for initialization
-	void Start () 
+	protected override void Start () 
 	{
 		m_CurrentHealth = m_MaxHealth;
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	protected override void Update () 
 	{
-	
+		if(m_Timer > 0.0f)
+		{
+			m_Timer -= Time.deltaTime;
+
+			if(m_Timer <= 0.0f)
+			{
+				Revive();
+			}
+		}
 	}
 
-	public void Revive()
+	protected override bool CanBeCollectedVirtual (Interaction interaction)
+	{
+		return (m_CurrentHealth <= 0) ? true : false;
+	}
+
+	protected override void CollectionComplete ()
+	{
+
+	}
+
+	protected override void CollectVirtual (Interaction interaction)
+	{
+		if(m_Timer <= 0.0f)
+		{
+			m_Timer = (interaction != null) ? m_RevivingTime : 0.0f;
+		}
+		else
+		{
+			m_Timer = (interaction == null) ? 0.0f : m_Timer;
+		}
+	}
+
+	void Revive()
 	{
 		m_CurrentHealth = (int) (m_MaxHealth * GameConstants.REVIVAL_HEALTH_MULTIPLIER);
 

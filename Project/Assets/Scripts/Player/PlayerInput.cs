@@ -73,5 +73,7 @@ public class PlayerInput : MonoBehaviour
 		Reload = Input.GetButtonDown(AxisConstants.B_BUTTON + m_PlayerNumber);
 
 		Interact = Input.GetButton (AxisConstants.X_BUTTON + m_PlayerNumber);
+
+		UsePower = Input.GetButton(AxisConstants.LEFT_BUMPER + m_PlayerNumber);
 	}
 }

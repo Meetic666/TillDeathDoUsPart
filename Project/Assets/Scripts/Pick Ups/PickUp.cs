@@ -8,13 +8,13 @@ public class PickUp : MonoBehaviour
 	float m_Time;
 
 	// Use this for initialization
-	void Start () 
+	protected virtual void Start () 
 	{
 		m_InitialPosition = transform.position;
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	protected virtual void Update () 
 	{
 		m_Time += Time.deltaTime;
 
@@ -25,24 +25,32 @@ public class PickUp : MonoBehaviour
 		transform.eulerAngles = newEulerAngles;
 	}
 
-	public bool Collect(Interaction interaction)
+	public void Collect(Interaction interaction)
 	{
-		bool result = CollectVirtual (interaction);
+		CollectVirtual (interaction);
 
-		if(result)
+		if(interaction)
 		{
 			CollectionComplete ();
 		}
-
-		return result;
 	}
 
-	protected virtual bool CollectVirtual(Interaction interaction)
+	public bool CanBeCollected(Interaction interaction)
+	{
+		return CanBeCollectedVirtual(interaction);
+	}
+
+	protected virtual void CollectVirtual(Interaction interaction)
+	{
+
+	}
+
+	protected virtual bool CanBeCollectedVirtual(Interaction interaction)
 	{
 		return false;
 	}
 
-	void CollectionComplete()
+	protected virtual void CollectionComplete()
 	{
 		gameObject.SetActive (false);
 	}

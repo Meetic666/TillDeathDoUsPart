@@ -5,10 +5,23 @@ public class WeaponPickUp : PickUp
 {
 	public WeaponType m_WeaponType;
 
-	protected override bool CollectVirtual (Interaction interaction)
+	protected override void CollectVirtual (Interaction interaction)
+	{
+		if(interaction)
+		{			
+			Inventory inventory = interaction.GetComponent<Inventory>();
+			
+			if(inventory != null)
+			{
+                inventory.UnlockWeapon(m_WeaponType);
+			}
+		}
+	}
+
+	protected override bool CanBeCollectedVirtual (Interaction interaction)
 	{
 		Inventory inventory = interaction.GetComponent<Inventory>();
-
+		
 		if(inventory != null)
 		{
 			if(inventory.WeaponIsUnlocked(m_WeaponType))
@@ -16,15 +29,13 @@ public class WeaponPickUp : PickUp
 				return false;
 			}
 			else
-			{
-				inventory.UnlockWeapon(m_WeaponType);
-
-				return true;
-			}
-		}
-		else
-		{
-			return false;
+			{                
+                return true;
+            }
+        }
+        else
+        {
+            return false;
 		}
 	}
 }

@@ -7,6 +7,7 @@ public class Interaction : MonoBehaviour
 	public LayerMask m_LayersToCollideWith;
 
 	PickUp m_InRangePickUp;
+	Health m_InRangeHealth;
 
 	PlayerInput m_Input;
 
@@ -21,9 +22,16 @@ public class Interaction : MonoBehaviour
 	{
 		CheckForPickUp();
 
-		if(m_Input.Interact && m_InRangePickUp)
+		if(m_InRangePickUp && m_InRangePickUp.CanBeCollected(this))
 		{
-			m_InRangePickUp.Collect(this);
+			if(m_Input.Interact)
+			{
+				m_InRangePickUp.Collect(this);
+			}
+			else
+			{
+				m_InRangePickUp.Collect (null);
+			}
 		}
 	}
 
@@ -33,18 +41,25 @@ public class Interaction : MonoBehaviour
 
 		float minDistance = m_InteractionRange;
 
-		m_InRangePickUp = null;
+		PickUp inRangePickUp = null;
 
 		foreach(Collider pickUpCollider in pickUpColliders)
 		{
 			float distance = Vector3.Distance (pickUpCollider.transform.position, transform.position);
 
-			if(distance < minDistance)
+			if(pickUpCollider.gameObject != gameObject && distance < minDistance)
 			{
 				minDistance = distance;
 
-				m_InRangePickUp = pickUpCollider.GetComponent<PickUp>();
+				inRangePickUp = pickUpCollider.GetComponent<PickUp>();
 			}
 		}
+
+		if(m_InRangePickUp && inRangePickUp != m_InRangePickUp)
+		{
+			m_InRangePickUp.Collect (null);
+		}
+
+		m_InRangePickUp = inRangePickUp;
 	}
 }
