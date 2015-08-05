@@ -41,6 +41,17 @@ public class CameraMovement : MonoBehaviour
 
 
 		float distanceBetweenPlayers = Vector3.Distance(playerCenter, m_Players[0].transform.position) * 2.0f;
+
+		for(int i = 1; i < m_Players.Length; i++)
+		{
+			float distance = Vector3.Distance(playerCenter, m_Players[i].transform.position) * 2.0f;
+
+			if(distance > distanceBetweenPlayers)
+			{
+				distanceBetweenPlayers = distance;
+			}
+		}
+
 		distanceBetweenPlayers = Mathf.Clamp(distanceBetweenPlayers, m_MinDistanceBetweenPlayers, m_MaxDistanceBetweenPlayers);
 
 
