@@ -1,18 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Stampede : MonoBehaviour 
+public class Stampede : SuperPower 
 {
-
-	// Use this for initialization
-	void Start () 
+	public GameObject m_StampedePrefab;
+	public float m_DistanceFromPlayer;
+	
+	protected override void UsePower ()
 	{
-	
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-	
+		m_ObjectPool.Instantiate (m_StampedePrefab, transform.position + transform.forward * m_DistanceFromPlayer, transform.rotation);
 	}
 }

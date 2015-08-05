@@ -6,13 +6,20 @@ public class Projectile : MonoBehaviour
 	public float m_Speed;
 	public int m_Damage;
 	public LayerMask m_LayersToCollideWith;
+
+	Vector3 m_PreviousPosition;
+
+	void Start()
+	{
+		m_PreviousPosition = transform.position;
+	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		Vector3 displacement = transform.forward * m_Speed * Time.deltaTime;
+		transform.position += transform.forward * m_Speed * Time.deltaTime;
 
-		transform.position += displacement;
+		Vector3 displacement = transform.position - m_PreviousPosition;
 
 		RaycastHit hitInfo;
 
@@ -23,6 +30,8 @@ public class Projectile : MonoBehaviour
 				Explode(hitInfo.collider.GetComponent<Health>());
 			}
 		}
+
+		m_PreviousPosition = transform.position;
 	}
 
 	void Explode(Health otherHealth)
