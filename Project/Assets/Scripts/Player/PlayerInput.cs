@@ -45,6 +45,12 @@ public class PlayerInput : MonoBehaviour
 		protected set;
 	}
 
+	public bool ComboPower
+	{
+		get;
+		protected set;
+	}
+
 	public int m_PlayerNumber;
 
 	// Use this for initialization
@@ -75,5 +81,7 @@ public class PlayerInput : MonoBehaviour
 		Interact = Input.GetButton (AxisConstants.X_BUTTON + m_PlayerNumber);
 
 		UsePower = Input.GetButton(AxisConstants.LEFT_BUMPER + m_PlayerNumber);
+
+		ComboPower = Input.GetButton (AxisConstants.A_BUTTON + m_PlayerNumber);
 	}
 }
