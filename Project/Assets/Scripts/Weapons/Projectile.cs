@@ -9,9 +9,13 @@ public class Projectile : MonoBehaviour
 
 	Vector3 m_PreviousPosition;
 
+	Collider m_Collider;
+
 	void Start()
 	{
 		m_PreviousPosition = transform.position;
+
+		m_Collider = GetComponent<Collider>();
 	}
 	
 	// Update is called once per frame
@@ -23,7 +27,7 @@ public class Projectile : MonoBehaviour
 
 		RaycastHit hitInfo;
 
-		if(Physics.Raycast (transform.position - displacement, displacement, out hitInfo, displacement.magnitude, m_LayersToCollideWith.value))
+		if(Physics.SphereCast (transform.position - displacement, m_Collider.bounds.size.x * 0.5f, displacement, out hitInfo, displacement.magnitude, m_LayersToCollideWith.value))
 		{
 			if(hitInfo.collider.gameObject != gameObject)
 			{				
@@ -38,7 +42,7 @@ public class Projectile : MonoBehaviour
 	{
 		if(otherHealth)
 		{
-			otherHealth.Damage(m_Damage);
+			otherHealth.Damage(transform.forward * m_Speed, m_Damage);
 		}
 
 		gameObject.SetActive(false);

@@ -1,23 +1,41 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Movement : MonoBehaviour 
+public class Movement : GenericState 
 {
 	public float m_Speed;
 
 	PlayerInput m_Input;
-	CharacterController m_Controller;
+	NavMeshAgent m_Agent;
 
 	// Use this for initialization
 	void Start () 
 	{
 		m_Input = GetComponent<PlayerInput>();
-		m_Controller = GetComponent<CharacterController>();
+		m_Agent = GetComponent<NavMeshAgent>();
 	}
-	
-	// Update is called once per frame
-	void Update () 
+
+	public override bool CanEnterState ()
 	{
-		m_Controller.Move (m_Input.Movement * m_Speed * Time.deltaTime);
+		return true;
+	}
+
+	public override void UpdateState ()
+	{
+		Vector3 displacement = m_Input.Movement * m_Speed * Time.deltaTime;
+
+		NavMeshHit hitInfo;
+
+		if(!m_Agent.Raycast(transform.position + displacement, out hitInfo))
+		{
+			m_Agent.Move (displacement);
+		}
+		else
+		{
+			Vector3 obstacleTangent = Vector3.Cross (hitInfo.normal, Vector3.up);
+			float distanceAlongTangent = Vector3.Dot(obstacleTangent, displacement);
+
+			m_Agent.Move(distanceAlongTangent * obstacleTangent);
+		}
 	}
 }

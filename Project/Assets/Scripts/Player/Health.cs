@@ -9,10 +9,16 @@ public class Health : PickUp
 	public float m_RevivingTime;
 	float m_Timer;
 
+	StateMachine m_StateMachine;
+	KnockbackState m_Knockback;
+
 	// Use this for initialization
 	protected override void Start () 
 	{
 		m_CurrentHealth = m_MaxHealth;
+
+		m_StateMachine = GetComponent<StateMachine>();
+		m_Knockback = GetComponent<KnockbackState>();
 	}
 	
 	// Update is called once per frame
@@ -68,6 +74,14 @@ public class Health : PickUp
 
 			Die ();
 		}
+	}
+
+	public void Damage(Vector3 projectileVelocity, float damageAmount)
+	{
+		m_StateMachine.Interrupt();
+		m_Knockback.SetUpKnockback(projectileVelocity , damageAmount);
+
+		Damage (damageAmount);
 	}
 
 	public void Heal(int amount)
