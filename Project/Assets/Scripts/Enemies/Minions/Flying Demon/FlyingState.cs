@@ -2,10 +2,17 @@
 using System.Collections;
 
 public class FlyingState : MovementState
-{	
+{
+	public float m_InRangeOscillationSpeed;
+	public float m_InRangeOscillationAmplitude;
+
+	float m_Timer;
+
 	Vector3 m_Shortcut;
 
 	NavMeshAgent m_Agent;
+
+	AttackState m_Attack;
 
 	protected override void Start ()
 	{
@@ -13,18 +20,24 @@ public class FlyingState : MovementState
 		
 		m_Agent = GetComponent<NavMeshAgent>();
 		m_Agent.Stop ();
+
+		m_Attack = GetComponent<AttackState>();
 	}
 
 	public override void UpdateState ()
 	{
-		base.UpdateState ();		
-		
+		base.UpdateState ();	
+
+		m_Timer += Time.deltaTime * m_InRangeOscillationSpeed;
+
+		Vector3 destination = CalculateDestination();
+
 		Vector3 targetForward = (m_TargettedPlayer.transform.position - transform.position).normalized;
 		targetForward.y = 0.0f;
 		
 		transform.forward = Vector3.Slerp (transform.forward, targetForward, m_Agent.angularSpeed * Mathf.Deg2Rad * Time.deltaTime);
 
-		m_Agent.SetDestination(m_TargettedPlayer.transform.position);
+		m_Agent.SetDestination(destination);
 
 		CheckForShortcut();
 
@@ -49,5 +62,24 @@ public class FlyingState : MovementState
 				m_Shortcut = position;
 			}
 		}
+	}
+
+	Vector3 CalculateDestination()
+	{
+		Vector3 destination = Vector3.zero;
+
+		Vector3 playerDirection = m_TargettedPlayer.transform.position - transform.position;
+		playerDirection.y = 0.0f;
+		playerDirection *= -1.0f;
+
+		destination = m_TargettedPlayer.transform.position + playerDirection.normalized * m_Attack.m_AttackRange;
+		destination.y = transform.position.y;
+		
+		Vector3 forward = -playerDirection.normalized;
+		Vector3 right = Vector3.Cross(forward, Vector3.up);
+
+		destination += right * m_InRangeOscillationAmplitude * Mathf.Sin(m_Timer) + forward * m_InRangeOscillationAmplitude * (1.0f + Mathf.Cos(m_Timer));
+
+		return destination;
 	}
 }

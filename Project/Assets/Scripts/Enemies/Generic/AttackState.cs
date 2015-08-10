@@ -14,7 +14,7 @@ public class AttackState : GenericState
 	public float m_AttackRecovery;
 
 	float m_AttackTimer;
-	float m_RecoveryTimer;
+	protected float m_RecoveryTimer;
 	
 	PlayerInput[] m_Players;
 	PlayerInput m_TargettedPlayer;
@@ -32,10 +32,13 @@ public class AttackState : GenericState
 		float minDistance = m_AttackRange;
 
 		m_TargettedPlayer = null;
-		
+
 		foreach(PlayerInput player in m_Players)
 		{
-			float distance = Vector3.Distance(player.transform.position, transform.position);
+			Vector3 playerPosition = player.transform.position;
+			playerPosition.y = transform.position.y;
+
+			float distance = Vector3.Distance(playerPosition, transform.position);
 			
 			if(distance <= minDistance)
 			{
@@ -72,11 +75,17 @@ public class AttackState : GenericState
 			if(m_AttackTimer <= 0.0f)
 			{
 				Attack ();
+
+				m_RecoveryTimer = m_AttackRecovery;
 			}
+
+			UpdateWindUp();
 		}
 		else if(m_RecoveryTimer > 0.0f)
 		{
 			m_RecoveryTimer -= Time.deltaTime;
+
+			UpdateRecovery ();
 		}
 	}
 	

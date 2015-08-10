@@ -9,8 +9,11 @@ public class Health : PickUp
 	public float m_RevivingTime;
 	float m_Timer;
 
+	public GameObject m_BloodParticlesPrefab;
+
 	StateMachine m_StateMachine;
 	KnockbackState m_Knockback;
+	ObjectPool m_ObjectPool;
 
 	// Use this for initialization
 	protected override void Start () 
@@ -19,6 +22,7 @@ public class Health : PickUp
 
 		m_StateMachine = GetComponent<StateMachine>();
 		m_Knockback = GetComponent<KnockbackState>();
+		m_ObjectPool = FindObjectOfType<ObjectPool>();
 	}
 	
 	// Update is called once per frame
@@ -67,6 +71,11 @@ public class Health : PickUp
 	public void Damage(float damageAmount)
 	{
 		m_CurrentHealth -= damageAmount;
+
+		if(m_BloodParticlesPrefab)
+		{
+			m_ObjectPool.Instantiate(m_BloodParticlesPrefab, transform.position, Quaternion.identity);
+		}
 
 		if(m_CurrentHealth <= 0.0f)
 		{
