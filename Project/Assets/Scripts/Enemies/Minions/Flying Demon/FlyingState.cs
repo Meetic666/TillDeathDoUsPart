@@ -39,13 +39,15 @@ public class FlyingState : MovementState
 
 		m_Agent.SetDestination(destination);
 
+		m_Agent.updatePosition = false;
+
 		CheckForShortcut();
 
 		Vector3 displacement = m_Agent.speed * Time.deltaTime * (m_Shortcut - transform.position).normalized;
 
 		transform.position += displacement;
-		
-		m_Agent.updatePosition = false;
+
+		Debug.DrawLine (transform.position, m_Shortcut);
 	}
 
 	void CheckForShortcut()
@@ -72,7 +74,17 @@ public class FlyingState : MovementState
 		playerDirection.y = 0.0f;
 		playerDirection *= -1.0f;
 
-		destination = m_TargettedPlayer.transform.position + playerDirection.normalized * m_Attack.m_AttackRange;
+		Vector3 playerOffset = playerDirection.normalized * m_Attack.m_AttackRange;
+
+		if(!Physics.Raycast(m_TargettedPlayer.transform.position, playerOffset))
+		{
+			destination = m_TargettedPlayer.transform.position + playerOffset;
+		}
+		else
+		{
+			destination = m_TargettedPlayer.transform.position - playerOffset;
+		}
+
 		destination.y = transform.position.y;
 		
 		Vector3 forward = -playerDirection.normalized;

@@ -25,15 +25,13 @@ public class StateMachine : MonoBehaviour
 		}
 
 		m_PotentialNextStatesIndex = new List<int>();
-
-		CalculateNextState();
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
 		m_States[m_CurrentStateIndex].UpdateState();
-
+		
 		CalculateNextState();
 	}
 

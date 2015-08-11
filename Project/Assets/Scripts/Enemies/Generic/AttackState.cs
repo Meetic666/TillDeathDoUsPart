@@ -17,10 +17,10 @@ public class AttackState : GenericState
 	protected float m_RecoveryTimer;
 	
 	PlayerInput[] m_Players;
-	PlayerInput m_TargettedPlayer;
+	protected PlayerInput m_TargettedPlayer;
 	ObjectPool m_ObjectPool;
 	
-	void Start()
+	protected virtual void Start()
 	{
 		m_Players = FindObjectsOfType<PlayerInput>();
 

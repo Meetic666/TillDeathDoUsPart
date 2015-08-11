@@ -47,4 +47,12 @@ public class Projectile : MonoBehaviour
 
 		gameObject.SetActive(false);
 	}
+
+	void OnTriggerEnter(Collider otherCollider)
+	{
+		if((1 << otherCollider.gameObject.layer & m_LayersToCollideWith.value) != 0)
+		{
+			Explode (otherCollider.GetComponent<Health>());
+		}
+	}
 }
