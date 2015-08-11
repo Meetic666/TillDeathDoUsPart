@@ -26,7 +26,7 @@ public class FlyingState : MovementState
 
 	public override void UpdateState ()
 	{
-		base.UpdateState ();	
+		base.UpdateState ();
 
 		m_Timer += Time.deltaTime * m_InRangeOscillationSpeed;
 
@@ -37,17 +37,18 @@ public class FlyingState : MovementState
 		
 		transform.forward = Vector3.Slerp (transform.forward, targetForward, m_Agent.angularSpeed * Mathf.Deg2Rad * Time.deltaTime);
 
+		m_Agent.nextPosition = transform.position;
 		m_Agent.SetDestination(destination);
 
-		m_Agent.updatePosition = false;
-
 		CheckForShortcut();
+
+		m_Agent.updatePosition = false;
 
 		Vector3 displacement = m_Agent.speed * Time.deltaTime * (m_Shortcut - transform.position).normalized;
 
 		transform.position += displacement;
-
-		Debug.DrawLine (transform.position, m_Shortcut);
+		
+		m_Agent.nextPosition = transform.position;
 	}
 
 	void CheckForShortcut()
@@ -59,7 +60,9 @@ public class FlyingState : MovementState
 
 			RaycastHit hitInfo;
 
-			if(!Physics.SphereCast (transform.position, m_Agent.radius, position - transform.position, out hitInfo))
+			Vector3 shortcutOffset = position - transform.position;
+
+			if(!Physics.SphereCast (transform.position, m_Agent.radius, shortcutOffset, out hitInfo, shortcutOffset.magnitude))
 			{
 				m_Shortcut = position;
 			}
@@ -76,13 +79,15 @@ public class FlyingState : MovementState
 
 		Vector3 playerOffset = playerDirection.normalized * m_Attack.m_AttackRange;
 
-		if(!Physics.Raycast(m_TargettedPlayer.transform.position, playerOffset))
+		RaycastHit hitInfo;
+
+		if(!Physics.SphereCast(m_TargettedPlayer.transform.position, m_Agent.radius, playerOffset, out hitInfo, playerOffset.magnitude))
 		{
 			destination = m_TargettedPlayer.transform.position + playerOffset;
 		}
 		else
 		{
-			destination = m_TargettedPlayer.transform.position - playerOffset;
+			destination = m_TargettedPlayer.transform.position + playerOffset.normalized * hitInfo.distance;
 		}
 
 		destination.y = transform.position.y;

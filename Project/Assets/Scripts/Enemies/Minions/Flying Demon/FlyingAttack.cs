@@ -30,7 +30,14 @@ public class FlyingAttack : AttackState
 			Vector3 playerDirection = m_TargettedPlayer.transform.position - transform.position;
 			playerDirection.y = 0.0f;
 
-			result &= !Physics.Raycast (transform.position, playerDirection);
+			if(!Physics.Raycast (transform.position, playerDirection, playerDirection.magnitude))
+			{
+				result = true;
+			}
+			else
+			{
+				result = false;
+			}
 		}
 
 		return result;
@@ -38,8 +45,6 @@ public class FlyingAttack : AttackState
 
 	protected override void UpdateWindUp ()
 	{
-		m_Agent.enabled = false;
-
 		m_SlashDirection = transform.forward;
 
 		m_InitialHeight = transform.position.y;
@@ -51,7 +56,7 @@ public class FlyingAttack : AttackState
 	{
 		if(m_FirstRecovery)
 		{
-			m_Agent.enabled = true;
+			m_Agent.nextPosition = transform.position;
 			
 			m_Agent.updatePosition = true;
 		}
