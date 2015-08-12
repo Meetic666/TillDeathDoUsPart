@@ -3,6 +3,7 @@ using System.Collections;
 
 public class FlyingAttack : AttackState
 {
+	public bool m_CheckForObstacles;
 	public float m_SlashSpeed;
 	public float m_DipHeight;
 
@@ -10,7 +11,7 @@ public class FlyingAttack : AttackState
 
 	float m_InitialHeight;
 
-	NavMeshAgent m_Agent;
+	protected NavMeshAgent m_Agent;
 
 	bool m_FirstRecovery;
 
@@ -25,7 +26,7 @@ public class FlyingAttack : AttackState
 	{
 		bool result = base.CanEnterState();
 
-		if(result)
+		if(m_CheckForObstacles && result)
 		{
 			Vector3 playerDirection = m_TargettedPlayer.transform.position - transform.position;
 			playerDirection.y = 0.0f;
