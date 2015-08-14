@@ -15,7 +15,7 @@ public class AttackState : GenericState
 
 	float m_AttackTimer;
 	protected float m_RecoveryTimer;
-	
+
 	PlayerInput[] m_Players;
 	protected PlayerInput m_TargettedPlayer;
 	ObjectPool m_ObjectPool;
@@ -94,9 +94,9 @@ public class AttackState : GenericState
 		base.ExitState ();
 	}
 
-	void Attack()
+	protected virtual GameObject Attack()
 	{
-		m_ObjectPool.Instantiate (m_AttackProjectilePrefab, m_ProjectileSpawnPoint.position, m_ProjectileSpawnPoint.rotation);
+		return m_ObjectPool.Instantiate (m_AttackProjectilePrefab, m_ProjectileSpawnPoint.position, m_ProjectileSpawnPoint.rotation);
 	}
 
 	protected virtual void UpdateWindUp()

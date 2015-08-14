@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LoveSurgeWeapon : MonoBehaviour 
+public class Explosion : MonoBehaviour 
 {
 	public float m_MaxRange;
 	public float m_ExpansionTime;
