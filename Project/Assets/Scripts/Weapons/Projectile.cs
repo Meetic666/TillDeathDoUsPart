@@ -11,15 +11,19 @@ public class Projectile : MonoBehaviour
 
 	Collider m_Collider;
 
+	ExplosiveProjectile m_ExplosiveProjectile;
+
 	void Start()
 	{
 		m_PreviousPosition = transform.position;
 
 		m_Collider = GetComponent<Collider>();
+
+		m_ExplosiveProjectile = GetComponent<ExplosiveProjectile>();
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
 		transform.position += transform.forward * m_Speed * Time.deltaTime;
 
@@ -46,6 +50,11 @@ public class Projectile : MonoBehaviour
 		}
 
 		gameObject.SetActive(false);
+
+		if(m_ExplosiveProjectile)
+		{
+			m_ExplosiveProjectile.Explode();
+		}
 	}
 
 	void OnTriggerEnter(Collider otherCollider)

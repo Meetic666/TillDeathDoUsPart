@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ThrowingProjectile : MonoBehaviour 
+public class ExplosiveProjectile : MonoBehaviour 
 {
 	public GameObject m_Explosion;
 
@@ -12,7 +12,7 @@ public class ThrowingProjectile : MonoBehaviour
 		m_ObjectPool = FindObjectOfType<ObjectPool>();
 	}
 
-	void OnDisable()
+	public void Explode()
 	{
 		m_ObjectPool.Instantiate (m_Explosion, transform.position, Quaternion.identity);
 	}

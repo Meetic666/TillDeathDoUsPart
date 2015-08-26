@@ -30,17 +30,10 @@ public class SwimmingLavaAttack : AttackState
 
 		direction.Normalize ();
 
-		float theta = 0.5f * Mathf.Asin (Physics.gravity.y * distance / (m_ProjectileSpeed * m_ProjectileSpeed));
-
-		Debug.Log(theta);
+		float time = distance / m_ProjectileSpeed;
 			
-		Vector3 velocity = direction;
-		velocity.y = Mathf.Sin (theta);
-		velocity.Normalize ();
-
-		velocity = velocity * m_ProjectileSpeed;
-
-		Debug.Log(velocity);
+		Vector3 velocity = direction * m_ProjectileSpeed;
+		velocity.y = - 2.0f * Physics.gravity.y / time;
 
 		return velocity;
 	}
