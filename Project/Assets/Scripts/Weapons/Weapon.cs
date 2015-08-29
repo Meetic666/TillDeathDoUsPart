@@ -9,33 +9,60 @@ public class Weapon : MonoBehaviour
 	public int m_ClipSize;
 	public int m_SprayAngle;
 	public int m_NumberOfProjectilesPerShot;
-	public int m_ReloadTime;
+	public float m_ReloadTime;
 
-	int m_RemainingShots;
+	protected int m_RemainingShots;
 	
-	float m_Timer;
+	protected float m_Timer;
 
 	float m_SprayOffset;
 
 	ObjectPool m_ObjectPool;
+
+	protected Animator m_CharacterAnimator;
+
+	protected bool m_IsReloading;
 
 	// Use this for initialization
 	void Start () 
 	{
 		m_ObjectPool = FindObjectOfType<ObjectPool>();
 
+		m_CharacterAnimator = transform.root.GetComponentInChildren<Animator>();
+
 		m_RemainingShots = m_ClipSize;
 
 		m_SprayOffset = Mathf.Sin(m_SprayAngle * Mathf.Deg2Rad);
+
+		StartVirtual ();
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
 		m_Timer -= Time.deltaTime;
+
+		if(m_Timer <= 0.0f)
+		{
+			FinishTimer();
+		}
+				
+		m_CharacterAnimator.SetBool("Reloading", m_IsReloading);
+
+		UpdateVirtual ();
 	}
 
-	public void Shoot()
+	protected virtual void StartVirtual()
+	{
+
+	}
+
+	protected virtual void UpdateVirtual()
+	{
+
+	}
+
+	public virtual void Shoot()
 	{
 		if(m_RemainingShots > 0 && m_Timer <= 0.0f)
 		{
@@ -45,7 +72,7 @@ public class Weapon : MonoBehaviour
 			{				
 				newProjectile = m_ObjectPool.Instantiate(m_ProjectilePrefab, m_ProjectileStartPoint.position, Quaternion.identity);
 
-				Vector3 forward = transform.forward + transform.right * Random.Range(- m_SprayOffset, m_SprayOffset) + transform.up * Random.Range(- m_SprayOffset, m_SprayOffset);
+				Vector3 forward = m_ProjectileStartPoint.transform.forward + m_ProjectileStartPoint.transform.right * Random.Range(- m_SprayOffset, m_SprayOffset) + m_ProjectileStartPoint.transform.up * Random.Range(- m_SprayOffset, m_SprayOffset);
 				forward.Normalize();
 
 				newProjectile.transform.forward = forward;
@@ -62,8 +89,40 @@ public class Weapon : MonoBehaviour
 
 	public void Reload()
 	{
-		m_RemainingShots = m_ClipSize;
+		if(m_RemainingShots != m_ClipSize)
+		{
+			ReloadVirtual();
+		}
+	}
+
+	protected virtual void ReloadVirtual()
+	{
+		m_IsReloading = true;
 
 		m_Timer = m_ReloadTime;
+	}
+
+	protected virtual void FinishTimer()
+	{
+		if(m_IsReloading)
+		{
+			EndReload();
+		}
+		else
+		{
+			ReadyForNextShot ();
+		}
+	}
+
+	protected virtual void EndReload()
+	{		
+		m_IsReloading = false;
+
+		m_RemainingShots = m_ClipSize;
+	}
+
+	protected virtual void ReadyForNextShot()
+	{
+
 	}
 }

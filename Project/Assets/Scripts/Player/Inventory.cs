@@ -14,6 +14,12 @@ public class Inventory : MonoBehaviour
 {
 	public Weapon[] m_Weapons;
 
+	public Animator m_CharacterAnimator;
+
+	public float m_WeaponChangeTime;
+
+	float m_Timer;
+
 	List<WeaponType> m_UnlockedWeapons;
 
 	int m_EquippedWeaponIndex;
@@ -43,7 +49,7 @@ public class Inventory : MonoBehaviour
 
 		m_Input = GetComponent<PlayerInput>();
 
-		EquipWeapon();
+		ChangeWeapon();
 	}
 	
 	// Update is called once per frame
@@ -55,7 +61,17 @@ public class Inventory : MonoBehaviour
 
 			m_EquippedWeaponIndex %= m_UnlockedWeapons.Count;
 
-			EquipWeapon();
+			ChangeWeapon();
+		}
+
+		if(m_Timer > 0.0f)
+		{
+			m_Timer -= Time.deltaTime;
+
+			if(m_Timer <= 0.0f)
+			{
+				EquipWeapon ();
+			}
 		}
 	}
 
@@ -67,7 +83,14 @@ public class Inventory : MonoBehaviour
 
 			m_EquippedWeaponIndex = m_UnlockedWeapons.Count - 1;
 
-			EquipWeapon ();
+			ChangeWeapon();
+
+			if(m_UnlockedWeapons.Count == 1)
+			{
+				m_Timer = 0.0f;
+
+				EquipWeapon ();
+			}
 
 			GameData.Instance.UnlockWeapon(type);
 		}
@@ -83,6 +106,16 @@ public class Inventory : MonoBehaviour
 		for(int i = 0; i < m_Weapons.Length; i++)
 		{
 			m_Weapons[i].gameObject.SetActive (m_UnlockedWeapons.Count > 0 && i == (int) m_UnlockedWeapons[m_EquippedWeaponIndex]);
+		}
+	}
+
+	void ChangeWeapon()
+	{
+		m_Timer = m_WeaponChangeTime;		
+		
+		if(m_UnlockedWeapons.Count > 0)
+		{			
+			m_CharacterAnimator.SetInteger("WeaponEquipped", (int) m_UnlockedWeapons[m_EquippedWeaponIndex] + 1);
 		}
 	}
 }
