@@ -15,6 +15,8 @@ public class Health : PickUp
 	KnockbackState m_Knockback;
 	ObjectPool m_ObjectPool;
 
+	Animator m_CharacterAnimator;
+
 	// Use this for initialization
 	protected override void Start () 
 	{
@@ -22,12 +24,22 @@ public class Health : PickUp
 
 		m_StateMachine = GetComponent<StateMachine>();
 		m_Knockback = GetComponent<KnockbackState>();
-		m_ObjectPool = FindObjectOfType<ObjectPool>();
+		m_ObjectPool = FindObjectOfType<ObjectPool>();		
+		
+		m_CharacterAnimator = GetComponent<AnimatorHandler>().m_CharacterAnimator;
 	}
 	
 	// Update is called once per frame
 	protected override void Update () 
 	{
+		Vector3 position = transform.position;
+		Vector3 eulerAngles = transform.eulerAngles;
+
+		base.Update();
+
+		transform.position = position;
+		transform.eulerAngles = eulerAngles;
+
 		if(m_Timer > 0.0f)
 		{
 			m_Timer -= Time.deltaTime;
@@ -36,6 +48,11 @@ public class Health : PickUp
 			{
 				Revive();
 			}
+		}
+
+		if(m_CharacterAnimator)
+		{
+			m_CharacterAnimator.SetBool ("Dead", m_CurrentHealth <= 0.0f);
 		}
 	}
 
@@ -116,5 +133,13 @@ public class Health : PickUp
 	void Resurrect()
 	{
 
+	}
+
+	[ContextMenu("Kill")]
+	void Kill()
+	{
+		m_CurrentHealth = 0.0f;
+
+		Die();
 	}
 }

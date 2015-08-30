@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Interaction : MonoBehaviour 
 {
 	public float m_InteractionRange;
 	public LayerMask m_LayersToCollideWith;
+
+	Animator m_CharacterAnimator;
 
 	PickUp m_InRangePickUp;
 	Health m_InRangeHealth;
@@ -15,6 +17,8 @@ public class Interaction : MonoBehaviour
 	void Start () 
 	{
 		m_Input = GetComponent<PlayerInput>();
+		
+		m_CharacterAnimator = GetComponent<AnimatorHandler>().m_CharacterAnimator;
 	}
 	
 	// Update is called once per frame
@@ -27,11 +31,19 @@ public class Interaction : MonoBehaviour
 			if(m_Input.Interact)
 			{
 				m_InRangePickUp.Collect(this);
+
+				m_CharacterAnimator.SetBool("Crouching", true);
 			}
 			else
 			{
 				m_InRangePickUp.Collect (null);
+
+				m_CharacterAnimator.SetBool("Crouching", false);
 			}
+		}
+		else
+		{
+			m_CharacterAnimator.SetBool("Crouching", false);
 		}
 	}
 

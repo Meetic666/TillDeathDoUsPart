@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Weapon : MonoBehaviour 
@@ -28,7 +28,7 @@ public class Weapon : MonoBehaviour
 	{
 		m_ObjectPool = FindObjectOfType<ObjectPool>();
 
-		m_CharacterAnimator = transform.root.GetComponentInChildren<Animator>();
+		m_CharacterAnimator = transform.root.GetComponent<AnimatorHandler>().m_CharacterAnimator;
 
 		m_RemainingShots = m_ClipSize;
 

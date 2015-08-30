@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -14,8 +14,6 @@ public class Inventory : MonoBehaviour
 {
 	public Weapon[] m_Weapons;
 
-	public Animator m_CharacterAnimator;
-
 	public float m_WeaponChangeTime;
 
 	float m_Timer;
@@ -23,6 +21,10 @@ public class Inventory : MonoBehaviour
 	List<WeaponType> m_UnlockedWeapons;
 
 	int m_EquippedWeaponIndex;
+	
+	PlayerInput m_Input;
+	
+	Animator m_CharacterAnimator;
 
 	public Weapon EquippedWeapon
 	{
@@ -39,8 +41,6 @@ public class Inventory : MonoBehaviour
 		}
 	}
 
-	PlayerInput m_Input;
-
 	// Use this for initialization
 	void Start () 
 	{
@@ -48,6 +48,8 @@ public class Inventory : MonoBehaviour
 		m_UnlockedWeapons.AddRange (GameData.Instance.UnlockedWeapons);
 
 		m_Input = GetComponent<PlayerInput>();
+		
+		m_CharacterAnimator = GetComponent<AnimatorHandler>().m_CharacterAnimator;
 
 		ChangeWeapon();
 	}

@@ -3,9 +3,17 @@ using System.Collections;
 
 public class PickUp : MonoBehaviour 
 {
+	public float m_CollectionTime;
+
 	Vector3 m_InitialPosition;
 
 	float m_Time;
+
+	float m_CollectionTimer;
+
+	bool m_IsCollected;
+
+	Interaction m_PlayerInteraction;
 
 	// Use this for initialization
 	protected virtual void Start () 
@@ -23,15 +31,38 @@ public class PickUp : MonoBehaviour
 		Vector3 newEulerAngles = transform.eulerAngles;
 		newEulerAngles.y = m_Time * GameConstants.PICK_UP_ROTATION_SPEED;
 		transform.eulerAngles = newEulerAngles;
+
+		if(m_IsCollected)
+		{
+			m_CollectionTimer -= Time.deltaTime;
+
+			if(m_CollectionTimer <= 0.0f)
+			{
+				CollectVirtual(m_PlayerInteraction);
+
+				if(m_PlayerInteraction)
+				{
+					CollectionComplete ();
+				}
+			}
+		}
 	}
 
 	public void Collect(Interaction interaction)
 	{
-		CollectVirtual (interaction);
+		Interaction previousInteraction = m_PlayerInteraction;
 
-		if(interaction)
+		m_PlayerInteraction = interaction;
+
+		if(m_PlayerInteraction && !previousInteraction)
 		{
-			CollectionComplete ();
+			m_CollectionTimer = m_CollectionTime;
+
+			m_IsCollected = true;
+		}
+		else if(!m_PlayerInteraction)
+		{
+			m_IsCollected = false;
 		}
 	}
 
