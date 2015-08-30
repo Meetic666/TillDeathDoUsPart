@@ -28,7 +28,7 @@ public class GameConstants
 
 	public const float PICK_UP_WAVE_SPEED 			= 2.0f;
 	public const float PICK_UP_WAVE_AMPLITUDE		= 0.2f;
-	public const float PICK_UP_ROTATION_SPEED		= 15.0f;
+	public const float PICK_UP_ROTATION_SPEED		= 25.0f;
 }
 
 public class FileConstants

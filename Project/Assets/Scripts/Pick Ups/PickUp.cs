@@ -6,6 +6,7 @@ public class PickUp : MonoBehaviour
 	public float m_CollectionTime;
 
 	Vector3 m_InitialPosition;
+	float m_InitialEulerAngleY;
 
 	float m_Time;
 
@@ -19,6 +20,8 @@ public class PickUp : MonoBehaviour
 	protected virtual void Start () 
 	{
 		m_InitialPosition = transform.position;
+
+		m_InitialEulerAngleY = Random.Range (0.0f, 360.0f);
 	}
 	
 	// Update is called once per frame
@@ -29,7 +32,7 @@ public class PickUp : MonoBehaviour
 		transform.position = m_InitialPosition + transform.up * GameConstants.PICK_UP_WAVE_AMPLITUDE * Mathf.Sin(m_Time * GameConstants.PICK_UP_WAVE_SPEED);
 
 		Vector3 newEulerAngles = transform.eulerAngles;
-		newEulerAngles.y = m_Time * GameConstants.PICK_UP_ROTATION_SPEED;
+		newEulerAngles.y = m_InitialEulerAngleY + m_Time * GameConstants.PICK_UP_ROTATION_SPEED;
 		transform.eulerAngles = newEulerAngles;
 
 		if(m_IsCollected)

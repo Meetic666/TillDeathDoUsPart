@@ -1,26 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Interaction.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Pick Ups\PickUp.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player\Movement.cs" Line="46" Column="28" />
+      <File FileName="Assets\Scripts\Player\Movement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\GenericState.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\Health.cs" Line="41" Column="39" />
       <File FileName="Assets\Scripts\Player\AnimatorHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Pick Ups\PickUp.cs" Line="33" Column="42" />
-      <File FileName="Assets\Scripts\Player\Interaction.cs" Line="47" Column="4" />
+      <File FileName="Assets\Scripts\Pick Ups\PickUp.cs" Line="36" Column="24" />
+      <File FileName="Assets\Scripts\Player\Interaction.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Pick Ups\WeaponPickUp.cs" Line="4" Column="30" />
+      <File FileName="Assets\Scripts\Constants\Constants.cs" Line="31" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Scripts" expanded="True">
-              <Node name="Pick Ups" expanded="True" />
-              <Node name="Player" expanded="True">
-                <Node name="Interaction.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" />
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
