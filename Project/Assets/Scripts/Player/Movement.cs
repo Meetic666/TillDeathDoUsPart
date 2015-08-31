@@ -8,11 +8,15 @@ public class Movement : GenericState
 	PlayerInput m_Input;
 	NavMeshAgent m_Agent;
 
+	Interaction m_Interaction;
+
 	// Use this for initialization
 	protected override void StartVirtual ()
 	{
 		m_Input = GetComponent<PlayerInput>();
 		m_Agent = GetComponent<NavMeshAgent>();
+
+		m_Interaction = GetComponent<Interaction>();
 	}
 
 	public override bool CanEnterState ()
@@ -23,6 +27,11 @@ public class Movement : GenericState
 	public override void UpdateState ()
 	{
 		Vector3 displacement = m_Input.Movement * m_Speed * Time.deltaTime;
+
+		if(m_Interaction.Interacting)
+		{
+			displacement = Vector3.zero;
+		}
 
 		NavMeshHit hitInfo;
 

@@ -13,6 +13,12 @@ public class Interaction : MonoBehaviour
 
 	PlayerInput m_Input;
 
+	public bool Interacting
+	{
+		get;
+		protected set;
+	}
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -32,19 +38,21 @@ public class Interaction : MonoBehaviour
 			{
 				m_InRangePickUp.Collect(this);
 
-				m_CharacterAnimator.SetBool("Crouching", true);
+				Interacting = true;
 			}
 			else
 			{
 				m_InRangePickUp.Collect (null);
 
-				m_CharacterAnimator.SetBool("Crouching", false);
+				Interacting = false;
 			}
 		}
 		else
 		{
-			m_CharacterAnimator.SetBool("Crouching", false);
+			Interacting = false;
 		}
+		
+		m_CharacterAnimator.SetBool("Crouching", Interacting);
 	}
 
 	void CheckForPickUp()
