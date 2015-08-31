@@ -20,9 +20,9 @@ public class SwimmingState : MovementState
 
 	Vector3 m_Destination;
 
-	protected override void Start ()
+	protected override void StartVirtual ()
 	{
-		base.Start ();
+		base.StartVirtual ();
 
 		m_Agent = GetComponent<NavMeshAgent>();
 

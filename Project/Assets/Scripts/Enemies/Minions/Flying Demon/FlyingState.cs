@@ -14,9 +14,9 @@ public class FlyingState : MovementState
 
 	AttackState m_Attack;
 
-	protected override void Start ()
+	protected override void StartVirtual ()
 	{
-		base.Start ();
+		base.StartVirtual ();
 		
 		m_Agent = GetComponent<NavMeshAgent>();
 		m_Agent.Stop ();

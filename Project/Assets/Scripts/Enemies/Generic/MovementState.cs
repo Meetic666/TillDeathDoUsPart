@@ -10,7 +10,7 @@ public class MovementState : GenericState
 	PlayerInput[] m_Players;
 	protected PlayerInput m_TargettedPlayer;
 	
-	protected virtual void Start()
+	protected override void StartVirtual()
 	{
 		m_Players = FindObjectsOfType<PlayerInput>();
 	}
@@ -28,6 +28,8 @@ public class MovementState : GenericState
 	public override void EnterState ()
 	{
 		m_MoveCycleTimer = m_MoveCycleDuration;
+		
+		m_CharacterAnimator.SetBool ("Moving", true);
 	}
 
 	public override void UpdateState ()
@@ -38,8 +40,8 @@ public class MovementState : GenericState
 	}
 
 	public override void ExitState ()
-	{
-
+	{		
+		m_CharacterAnimator.SetBool ("Moving", false);
 	}
 
 	void UpdateTargettedPlayer()
@@ -50,13 +52,16 @@ public class MovementState : GenericState
 		
 		foreach(PlayerInput player in m_Players)
 		{
-			float distance = Vector3.Distance(player.transform.position, transform.position);
-			
-			if(distance <= minDistance)
+			if(!LayerMask.LayerToName(player.gameObject.layer).Contains (NameConstants.DEAD_LAYER))
 			{
-				minDistance = distance;
+				float distance = Vector3.Distance(player.transform.position, transform.position);
 				
-				m_TargettedPlayer = player;
+				if(distance <= minDistance)
+				{
+					minDistance = distance;
+					
+					m_TargettedPlayer = player;
+				}
 			}
 		}
 	}

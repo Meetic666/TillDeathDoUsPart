@@ -15,9 +15,9 @@ public class FlyingAttack : AttackState
 
 	bool m_FirstRecovery;
 
-	protected override void Start ()
+	protected override void StartVirtual ()
 	{
-		base.Start ();
+		base.StartVirtual ();
 
 		m_Agent = GetComponent<NavMeshAgent>();
 	}

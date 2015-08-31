@@ -5,18 +5,14 @@ public class Movement : GenericState
 {
 	public float m_Speed;
 
-	Animator m_CharacterAnimator;
-
 	PlayerInput m_Input;
 	NavMeshAgent m_Agent;
 
 	// Use this for initialization
-	void Start () 
+	protected override void StartVirtual ()
 	{
 		m_Input = GetComponent<PlayerInput>();
 		m_Agent = GetComponent<NavMeshAgent>();
-
-		m_CharacterAnimator = GetComponent<AnimatorHandler>().m_CharacterAnimator;
 	}
 
 	public override bool CanEnterState ()

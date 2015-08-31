@@ -5,9 +5,9 @@ public class CrawlingState : MovementState
 {
 	NavMeshAgent m_Agent;
 
-	protected override void Start ()
+	protected override void StartVirtual ()
 	{
-		base.Start ();
+		base.StartVirtual ();
 
 		m_Agent = GetComponent<NavMeshAgent>();
 	}
@@ -21,6 +21,8 @@ public class CrawlingState : MovementState
 
 	public override void ExitState ()
 	{
+		base.ExitState ();
+
 		m_Agent.Stop ();
 	}
 

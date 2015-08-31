@@ -11,6 +11,8 @@ public class StateMachine : MonoBehaviour
 
 	List<int> m_PotentialNextStatesIndex;
 
+	Health m_Health;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -25,14 +27,19 @@ public class StateMachine : MonoBehaviour
 		}
 
 		m_PotentialNextStatesIndex = new List<int>();
+
+		m_Health = GetComponent<Health>();
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		m_States[m_CurrentStateIndex].UpdateState();
-		
-		CalculateNextState();
+		if(!m_Health.Dead)
+		{
+			m_States[m_CurrentStateIndex].UpdateState();
+			
+			CalculateNextState();
+		}
 	}
 
 	public void Interrupt()

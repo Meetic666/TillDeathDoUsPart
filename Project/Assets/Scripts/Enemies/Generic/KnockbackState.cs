@@ -10,7 +10,7 @@ public class KnockbackState : InterruptionState
 	NavMeshAgent m_Agent;
 	Rigidbody m_Rigidbody;
 
-	void Start()
+	protected override void StartVirtual()
 	{
 		m_Agent = GetComponent<NavMeshAgent>();
 		m_Rigidbody = GetComponent<Rigidbody>();

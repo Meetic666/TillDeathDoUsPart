@@ -20,7 +20,7 @@ public class AttackState : GenericState
 	protected PlayerInput m_TargettedPlayer;
 	ObjectPool m_ObjectPool;
 	
-	protected virtual void Start()
+	protected override void StartVirtual()
 	{
 		m_Players = FindObjectsOfType<PlayerInput>();
 
@@ -35,16 +35,19 @@ public class AttackState : GenericState
 
 		foreach(PlayerInput player in m_Players)
 		{
-			Vector3 playerPosition = player.transform.position;
-			playerPosition.y = transform.position.y;
-
-			float distance = Vector3.Distance(playerPosition, transform.position);
-			
-			if(distance <= minDistance)
-			{
-				minDistance = distance;
+			if(!LayerMask.LayerToName(player.gameObject.layer).Contains (NameConstants.DEAD_LAYER))
+			{				
+				Vector3 playerPosition = player.transform.position;
+				playerPosition.y = transform.position.y;
 				
-				m_TargettedPlayer = player;
+				float distance = Vector3.Distance(playerPosition, transform.position);
+				
+				if(distance <= minDistance)
+				{
+					minDistance = distance;
+					
+					m_TargettedPlayer = player;
+				}
 			}
 		}
 
@@ -59,6 +62,8 @@ public class AttackState : GenericState
 	public override void EnterState ()
 	{
 		m_AttackTimer = m_AttackDelay;
+
+		m_CharacterAnimator.SetBool ("Attacking", true);
 	}
 
 	public override void UpdateState ()
@@ -92,6 +97,8 @@ public class AttackState : GenericState
 	public override void ExitState ()
 	{
 		base.ExitState ();
+		
+		m_CharacterAnimator.SetBool ("Attacking", false);
 	}
 
 	protected virtual GameObject Attack()

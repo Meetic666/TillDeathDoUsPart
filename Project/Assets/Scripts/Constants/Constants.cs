@@ -35,3 +35,8 @@ public class FileConstants
 {
 	public const string GAME_DATA					= "/Game.dat";
 }
+
+public class NameConstants
+{
+	public const string DEAD_LAYER					= "Dead";
+}

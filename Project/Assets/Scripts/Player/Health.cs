@@ -17,6 +17,16 @@ public class Health : PickUp
 
 	Animator m_CharacterAnimator;
 
+	string m_LayerName;
+
+	public bool Dead
+	{
+		get
+		{
+			return m_CurrentHealth <= 0.0f;
+		}
+	}
+
 	// Use this for initialization
 	protected override void Start () 
 	{
@@ -27,6 +37,8 @@ public class Health : PickUp
 		m_ObjectPool = FindObjectOfType<ObjectPool>();		
 		
 		m_CharacterAnimator = GetComponent<AnimatorHandler>().m_CharacterAnimator;
+
+		m_LayerName = LayerMask.LayerToName(gameObject.layer);
 	}
 	
 	// Update is called once per frame
@@ -87,18 +99,21 @@ public class Health : PickUp
 
 	public void Damage(float damageAmount)
 	{
-		m_CurrentHealth -= damageAmount;
-
-		if(m_BloodParticlesPrefab)
+		if(m_CurrentHealth > 0.0f)
 		{
-			m_ObjectPool.Instantiate(m_BloodParticlesPrefab, transform.position, Quaternion.identity);
-		}
-
-		if(m_CurrentHealth <= 0.0f)
-		{
-			m_CurrentHealth = 0.0f;
-
-			Die ();
+			m_CurrentHealth -= damageAmount;
+			
+			if(m_BloodParticlesPrefab)
+			{
+				m_ObjectPool.Instantiate(m_BloodParticlesPrefab, transform.position, Quaternion.identity);
+			}
+			
+			if(m_CurrentHealth <= 0.0f)
+			{
+				m_CurrentHealth = 0.0f;
+				
+				Die ();
+			}
 		}
 	}
 
@@ -127,12 +142,12 @@ public class Health : PickUp
 
 	void Die()
 	{
-
+		gameObject.layer = LayerMask.NameToLayer(m_LayerName + NameConstants.DEAD_LAYER);
 	}
 
 	void Resurrect()
 	{
-
+		gameObject.layer = LayerMask.NameToLayer(m_LayerName);
 	}
 
 	[ContextMenu("Kill")]
