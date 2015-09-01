@@ -4,7 +4,7 @@ using System.Collections;
 public class Health : PickUp 
 {
 	public int m_MaxHealth;
-	float m_CurrentHealth;
+	protected float m_CurrentHealth;
 
 	public float m_RevivingTime;
 	float m_Timer;
@@ -13,9 +13,9 @@ public class Health : PickUp
 
 	StateMachine m_StateMachine;
 	KnockbackState m_Knockback;
-	ObjectPool m_ObjectPool;
+	protected ObjectPool m_ObjectPool;
 
-	Animator m_CharacterAnimator;
+	protected Animator m_CharacterAnimator;
 
 	string m_LayerName;
 
@@ -140,12 +140,12 @@ public class Health : PickUp
 		return m_CurrentHealth < m_MaxHealth;
 	}
 
-	void Die()
+	protected virtual void Die()
 	{
 		gameObject.layer = LayerMask.NameToLayer(m_LayerName + NameConstants.DEAD_LAYER);
 	}
 
-	void Resurrect()
+	protected virtual void Resurrect()
 	{
 		gameObject.layer = LayerMask.NameToLayer(m_LayerName);
 	}

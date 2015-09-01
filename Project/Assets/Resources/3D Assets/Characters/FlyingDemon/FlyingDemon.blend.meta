@@ -1,0 +1,3667 @@
+fileFormatVersion: 2
+guid: 9581b67e3bdb5ca48a94c7c9867d9e90
+timeCreated: 1441143375
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AnkleLeft
+    100002: AnkleRight
+    100004: ArmIK_Left
+    100006: ArmIK_Right
+    100008: BaseCharacter
+    100010: CalfLeft
+    100012: CalfRight
+    100014: CharacterArmature
+    100016: Chest
+    100018: ElbowIK_Left
+    100020: ElbowIK_Right
+    100022: FingersLeft
+    100024: FingersLeft_001
+    100026: FingersLeft_002
+    100028: FingersLeft_003
+    100030: FingersRight
+    100032: FingersRight_001
+    100034: FingersRight_002
+    100036: FingersRight_003
+    100038: //RootNode
+    100040: FootIK_Left
+    100042: FootIK_Right
+    100044: FootLeft
+    100046: FootRight
+    100048: ForearmLeft
+    100050: ForearmRight
+    100052: HandLeft
+    100054: HandRight
+    100056: Head
+    100058: Hips
+    100060: KneeIK_Left
+    100062: KneeIK_Right
+    100064: Neck
+    100066: Root
+    100068: ShoulderLeft
+    100070: ShoulderRight
+    100072: Spine
+    100074: ThighLeft
+    100076: ThighRight
+    100078: ThumbLeft
+    100080: ThumbLeft_001
+    100082: ThumbLeft_002
+    100084: ThumbRight
+    100086: ThumbRight_001
+    100088: ThumbRight_002
+    100090: UpperArmLeft
+    100092: UpperArmRight
+    100094: Wing1Left
+    100096: Wing1Right
+    100098: Wing2Left
+    100100: Wing2Right
+    100102: Wing3Left
+    100104: Wing3Right
+    100106: Wing4Left
+    100108: Wing4Right
+    100110: Wing5Left
+    100112: Wing5Right
+    100114: WingInterstice1Left
+    100116: WingInterstice1Right
+    100118: WingInterstice2Left
+    100120: WingInterstice2Right
+    100122: Wings
+    400000: AnkleLeft
+    400002: AnkleRight
+    400004: ArmIK_Left
+    400006: ArmIK_Right
+    400008: BaseCharacter
+    400010: CalfLeft
+    400012: CalfRight
+    400014: CharacterArmature
+    400016: Chest
+    400018: ElbowIK_Left
+    400020: ElbowIK_Right
+    400022: FingersLeft
+    400024: FingersLeft_001
+    400026: FingersLeft_002
+    400028: FingersLeft_003
+    400030: FingersRight
+    400032: FingersRight_001
+    400034: FingersRight_002
+    400036: FingersRight_003
+    400038: //RootNode
+    400040: FootIK_Left
+    400042: FootIK_Right
+    400044: FootLeft
+    400046: FootRight
+    400048: ForearmLeft
+    400050: ForearmRight
+    400052: HandLeft
+    400054: HandRight
+    400056: Head
+    400058: Hips
+    400060: KneeIK_Left
+    400062: KneeIK_Right
+    400064: Neck
+    400066: Root
+    400068: ShoulderLeft
+    400070: ShoulderRight
+    400072: Spine
+    400074: ThighLeft
+    400076: ThighRight
+    400078: ThumbLeft
+    400080: ThumbLeft_001
+    400082: ThumbLeft_002
+    400084: ThumbRight
+    400086: ThumbRight_001
+    400088: ThumbRight_002
+    400090: UpperArmLeft
+    400092: UpperArmRight
+    400094: Wing1Left
+    400096: Wing1Right
+    400098: Wing2Left
+    400100: Wing2Right
+    400102: Wing3Left
+    400104: Wing3Right
+    400106: Wing4Left
+    400108: Wing4Right
+    400110: Wing5Left
+    400112: Wing5Right
+    400114: WingInterstice1Left
+    400116: WingInterstice1Right
+    400118: WingInterstice2Left
+    400120: WingInterstice2Right
+    400122: Wings
+    4300000: Wings
+    4300002: BaseCharacter
+    7400000: Default Take
+    7400002: CPR
+    7400004: Crawling
+    7400006: CrawlingAttack
+    7400008: CrawlingIdle
+    7400010: Crouch
+    7400012: Dead
+    7400014: Die
+    7400016: EmptyHands
+    7400018: EmptyHandsBack
+    7400020: Flying
+    7400022: FlyingAttack
+    7400024: GetUp
+    7400026: HoldShotgun
+    7400028: Idle
+    7400030: Pump_001
+    7400032: PumpShotgun
+    7400034: ReloadShotgun
+    7400036: Revive
+    7400038: StrafeLeft
+    7400040: StrafeRight
+    7400042: Walk
+    7400044: WalkBack
+    9500000: //RootNode
+    13700000: BaseCharacter
+    13700002: Wings
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 609
+      lastFrame: 714
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CPR
+      takeName: CPR
+      firstFrame: 429
+      lastFrame: 449
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Crawling
+      takeName: Crawling
+      firstFrame: 479
+      lastFrame: 499
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CrawlingAttack
+      takeName: CrawlingAttack
+      firstFrame: 509
+      lastFrame: 573
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CrawlingIdle
+      takeName: CrawlingIdle
+      firstFrame: 579
+      lastFrame: 599
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Crouch
+      takeName: Crouch
+      firstFrame: 409
+      lastFrame: 419
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dead
+      takeName: Dead
+      firstFrame: 299
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Die
+      takeName: Die
+      firstFrame: 269
+      lastFrame: 293
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EmptyHands
+      takeName: EmptyHands
+      firstFrame: 139
+      lastFrame: 169
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EmptyHandsBack
+      takeName: EmptyHandsBack
+      firstFrame: 179
+      lastFrame: 209
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Flying
+      takeName: Flying
+      firstFrame: 609
+      lastFrame: 643
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FlyingAttack
+      takeName: FlyingAttack
+      firstFrame: 649
+      lastFrame: 714
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GetUp
+      takeName: GetUp
+      firstFrame: 459
+      lastFrame: 469
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: HoldShotgun
+      takeName: HoldShotgun
+      firstFrame: 239
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 399
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Pump_001
+      takeName: Pump_001
+      firstFrame: -1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PumpShotgun
+      takeName: PumpShotgun
+      firstFrame: 219
+      lastFrame: 229
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ReloadShotgun
+      takeName: ReloadShotgun
+      firstFrame: 249
+      lastFrame: 259
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Revive
+      takeName: Revive
+      firstFrame: 309
+      lastFrame: 389
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: StrafeLeft
+      takeName: StrafeLeft
+      firstFrame: 79
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: StrafeRight
+      takeName: StrafeRight
+      firstFrame: 109
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkBack
+      takeName: WalkBack
+      firstFrame: 39
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      - path: CharacterArmature
+        weight: 1
+      - path: CharacterArmature/ArmIK_Left
+        weight: 1
+      - path: CharacterArmature/ArmIK_Right
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Left
+        weight: 1
+      - path: CharacterArmature/ElbowIK_Right
+        weight: 1
+      - path: CharacterArmature/FootIK_Left
+        weight: 1
+      - path: CharacterArmature/FootIK_Right
+        weight: 1
+      - path: CharacterArmature/Hips
+        weight: 1
+      - path: CharacterArmature/Hips/Spine
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/FingersLeft/FingersLeft_001/FingersLeft_002/FingersLeft_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/UpperArmLeft/ForearmLeft/HandLeft/ThumbLeft/ThumbLeft_001/ThumbLeft_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/Wing3Left/Wing4Left/Wing5Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/Wing2Left/WingInterstice2Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Left/WingInterstice1Left
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/Wing3Right/Wing4Right/Wing5Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/Wing2Right/WingInterstice2Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderLeft/Wing1Right/WingInterstice1Right
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/FingersRight/FingersRight_001/FingersRight_002/FingersRight_003
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001
+        weight: 1
+      - path: CharacterArmature/Hips/Spine/Chest/ShoulderRight/UpperArmRight/ForearmRight/HandRight/ThumbRight/ThumbRight_001/ThumbRight_002
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighLeft/CalfLeft/AnkleLeft/FootLeft
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight
+        weight: 1
+      - path: CharacterArmature/Hips/ThighRight/CalfRight/AnkleRight/FootRight
+        weight: 1
+      - path: CharacterArmature/KneeIK_Left
+        weight: 1
+      - path: CharacterArmature/KneeIK_Right
+        weight: 1
+      - path: CharacterArmature/Root
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
