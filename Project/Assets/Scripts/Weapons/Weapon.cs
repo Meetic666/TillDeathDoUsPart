@@ -40,11 +40,14 @@ public class Weapon : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		m_Timer -= Time.deltaTime;
-
-		if(m_Timer <= 0.0f)
+		if(m_Timer > 0.0f)
 		{
-			FinishTimer();
+			m_Timer -= Time.deltaTime;
+
+			if(m_Timer <= 0.0f)
+			{
+				FinishTimer();
+			}
 		}
 				
 		m_CharacterAnimator.SetBool("Reloading", m_IsReloading);
@@ -62,8 +65,10 @@ public class Weapon : MonoBehaviour
 
 	}
 
-	public virtual void Shoot()
+	public virtual bool Shoot()
 	{
+		bool result = false;
+
 		if(m_RemainingShots > 0 && m_Timer <= 0.0f)
 		{
 			GameObject newProjectile = null;
@@ -84,7 +89,11 @@ public class Weapon : MonoBehaviour
 			{
 				m_Timer = 1.0f / (float)m_FireRate;
 			}
+
+			result = true;
 		}
+
+		return result;
 	}
 
 	public void Reload()

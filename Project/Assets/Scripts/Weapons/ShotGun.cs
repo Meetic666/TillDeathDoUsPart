@@ -14,20 +14,16 @@ public class ShotGun : Weapon
 		m_ShotgunAnimator = GetComponent<Animator>();
 	}
 
-	public override void Shoot ()
+	public override bool Shoot ()
 	{		
-		int numberOfCartridgesLeft = m_RemainingShots;
-
-		base.Shoot ();
+		bool shotFired = base.Shoot ();
 		
 		if(m_IsReloading)
 		{
 			EndReload ();
 		}
-		else if(numberOfCartridgesLeft > 0)
-		{			
-			PumpShotgun();
-		}
+
+		return shotFired;
 	}
 
 	protected override void EndReload ()
@@ -61,6 +57,10 @@ public class ShotGun : Weapon
 			
 			m_CharacterAnimator.SetBool("PumpShotgun", false);
 			m_ShotgunAnimator.SetBool ("Pumping", false);
+		}
+		else
+		{
+			PumpShotgun ();
 		}
 	}
 
