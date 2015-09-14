@@ -14,10 +14,14 @@ public class CameraMovement : MonoBehaviour
 
 	PlayerInput[] m_Players;
 
+	CharacterController m_Controller;
+
 	// Use this for initialization
 	void Start () 
 	{
 		m_Players = FindObjectsOfType<PlayerInput>();
+
+		m_Controller = GetComponent<CharacterController>();
 	}
 	
 	// Update is called once per frame
@@ -25,7 +29,14 @@ public class CameraMovement : MonoBehaviour
 	{
 		CalculateTargetPosition();
 
-		transform.position = Vector3.Lerp (transform.position, m_TargetPosition, m_CameraSpeed * Time.deltaTime);
+		Vector3 displacement = m_TargetPosition - transform.position;
+		float distance = displacement.magnitude;
+
+		displacement.Normalize();
+
+		displacement *= Mathf.Min (distance, m_CameraSpeed * Time.deltaTime);
+			
+		m_Controller.Move (displacement);
 	}
 
 	void CalculateTargetPosition()
@@ -54,9 +65,7 @@ public class CameraMovement : MonoBehaviour
 
 		distanceBetweenPlayers = Mathf.Clamp(distanceBetweenPlayers, m_MinDistanceBetweenPlayers, m_MaxDistanceBetweenPlayers);
 
-
 		float distanceFromCenter = Mathf.Lerp(m_MinDistance, m_MaxDistance, (distanceBetweenPlayers - m_MinDistanceBetweenPlayers) / (m_MaxDistanceBetweenPlayers - m_MinDistanceBetweenPlayers));
-
 
 		m_TargetPosition = playerCenter - transform.forward * distanceFromCenter;
 	}

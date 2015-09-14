@@ -59,11 +59,14 @@ public class Inventory : MonoBehaviour
 	{
 		if(m_Input.SwitchWeapon)
 		{
-			m_EquippedWeaponIndex++;
-
-			m_EquippedWeaponIndex %= m_UnlockedWeapons.Count;
-
-			ChangeWeapon();
+			if(m_UnlockedWeapons.Count > 0)
+			{
+				m_EquippedWeaponIndex++;
+				
+				m_EquippedWeaponIndex %= m_UnlockedWeapons.Count;
+				
+				ChangeWeapon();
+			}
 		}
 
 		if(m_Timer > 0.0f)

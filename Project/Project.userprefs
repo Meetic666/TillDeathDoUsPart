@@ -1,27 +1,29 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Movement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Inventory.cs">
     <Files>
       <File FileName="Assets\Scripts\Player\Health.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemies\Generic\AttackState.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemies\Generic\MovementState.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\Interaction.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Movement.cs" Line="57" Column="51" />
+      <File FileName="Assets\Scripts\Player\Movement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\GenericState.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Constants\Constants.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\AIHealth.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Enemies\Minions\Crawling Demon\CrawlingState.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Weapons\Weapon.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Weapons\ShotGun.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Camera\CameraMovement.cs" Line="37" Column="71" />
+      <File FileName="Assets\Scripts\Player\Inventory.cs" Line="69" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Scripts" expanded="True">
-              <Node name="AI" expanded="True" />
+              <Node name="Camera" expanded="True" />
               <Node name="Player" expanded="True">
-                <Node name="Movement.cs" selected="True" />
+                <Node name="Inventory.cs" selected="True" />
               </Node>
             </Node>
           </Node>
