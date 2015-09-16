@@ -23,6 +23,8 @@ public class Weapon : MonoBehaviour
 
 	protected bool m_IsReloading;
 
+    MuzzleFlash m_MuzzleFlash;
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -33,6 +35,8 @@ public class Weapon : MonoBehaviour
 		m_RemainingShots = m_ClipSize;
 
 		m_SprayOffset = Mathf.Sin(m_SprayAngle * Mathf.Deg2Rad);
+
+        m_MuzzleFlash = GetComponentInChildren<MuzzleFlash>();
 
 		StartVirtual ();
 	}
@@ -82,6 +86,8 @@ public class Weapon : MonoBehaviour
 
 				newProjectile.transform.forward = forward;
 			}
+
+            m_MuzzleFlash.StartFlash();
 			
 			m_RemainingShots--;
 
