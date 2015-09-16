@@ -32,8 +32,13 @@ public class FlyingState : MovementState
 
 		Vector3 destination = CalculateDestination();
 
-		Vector3 targetForward = (m_TargettedPlayer.transform.position - transform.position).normalized;
-		targetForward.y = 0.0f;
+		Vector3 targetForward = transform.forward;
+
+		if(m_TargettedPlayer != null)
+		{
+			targetForward = (m_TargettedPlayer.transform.position - transform.position).normalized;
+			targetForward.y = 0.0f;
+		}
 		
 		transform.forward = Vector3.Slerp (transform.forward, targetForward, m_Agent.angularSpeed * Mathf.Deg2Rad * Time.deltaTime);
 
@@ -71,31 +76,34 @@ public class FlyingState : MovementState
 
 	Vector3 CalculateDestination()
 	{
-		Vector3 destination = Vector3.zero;
+		Vector3 destination = transform.position;
 
-		Vector3 playerDirection = m_TargettedPlayer.transform.position - transform.position;
-		playerDirection.y = 0.0f;
-		playerDirection *= -1.0f;
-
-		Vector3 playerOffset = playerDirection.normalized * m_Attack.m_AttackRange;
-
-		RaycastHit hitInfo;
-
-		if(!Physics.SphereCast(m_TargettedPlayer.transform.position, m_Agent.radius, playerOffset, out hitInfo, playerOffset.magnitude))
+		if(m_TargettedPlayer != null)
 		{
-			destination = m_TargettedPlayer.transform.position + playerOffset;
+			Vector3 playerDirection = m_TargettedPlayer.transform.position - transform.position;
+			playerDirection.y = 0.0f;
+			playerDirection *= -1.0f;
+			
+			Vector3 playerOffset = playerDirection.normalized * m_Attack.m_AttackRange;
+			
+			RaycastHit hitInfo;
+			
+			if(!Physics.SphereCast(m_TargettedPlayer.transform.position, m_Agent.radius, playerOffset, out hitInfo, playerOffset.magnitude))
+			{
+				destination = m_TargettedPlayer.transform.position + playerOffset;
+			}
+			else
+			{
+				destination = m_TargettedPlayer.transform.position + playerOffset.normalized * hitInfo.distance;
+			}
+			
+			destination.y = transform.position.y;
+			
+			Vector3 forward = -playerDirection.normalized;
+			Vector3 right = Vector3.Cross(forward, Vector3.up);
+			
+			destination += right * m_InRangeOscillationAmplitude * Mathf.Sin(m_Timer) + forward * m_InRangeOscillationAmplitude * (1.0f + Mathf.Cos(m_Timer));
 		}
-		else
-		{
-			destination = m_TargettedPlayer.transform.position + playerOffset.normalized * hitInfo.distance;
-		}
-
-		destination.y = transform.position.y;
-		
-		Vector3 forward = -playerDirection.normalized;
-		Vector3 right = Vector3.Cross(forward, Vector3.up);
-
-		destination += right * m_InRangeOscillationAmplitude * Mathf.Sin(m_Timer) + forward * m_InRangeOscillationAmplitude * (1.0f + Mathf.Cos(m_Timer));
 
 		return destination;
 	}

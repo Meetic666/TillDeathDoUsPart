@@ -86,18 +86,26 @@ public class Movement : GenericState
 	}
 
 	Vector3 CalculatePlayersCenter()
-	{
-		Vector3 playerCenter = Vector3.zero;
+    {
+        Vector3 playerCenter = Vector3.zero;
+
+        if (m_Players.Length > 1)
+        {
 		
-		for(int i = 0; i < m_Players.Length; i++)
-		{
-			if(m_Players[i] != m_Input)
-			{
-				playerCenter += m_Players[i].transform.position;
-			}	
-		}
+		    for(int i = 0; i < m_Players.Length; i++)
+		    {
+			    if(m_Players[i] != m_Input)
+			    {
+				    playerCenter += m_Players[i].transform.position;
+			    }	
+		    }
 		
-		playerCenter /= (m_Players.Length - 1);
+		    playerCenter /= (m_Players.Length - 1);
+        }
+        else
+        {
+            playerCenter = transform.position;
+        }
 
 		return playerCenter;
 	}

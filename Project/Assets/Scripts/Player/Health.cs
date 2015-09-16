@@ -44,13 +44,7 @@ public class Health : PickUp
 	// Update is called once per frame
 	protected override void Update () 
 	{
-		Vector3 position = transform.position;
-		Vector3 eulerAngles = transform.eulerAngles;
-
-		base.Update();
-
-		transform.position = position;
-		transform.eulerAngles = eulerAngles;
+        UpdateCollection();
 
 		if(m_Timer > 0.0f)
 		{

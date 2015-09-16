@@ -30,7 +30,10 @@ public class CrawlingState : MovementState
 	{
 		base.UpdateState ();
 
-		m_Agent.SetDestination(m_TargettedPlayer.transform.position);
+		if(m_TargettedPlayer != null)
+		{
+			m_Agent.SetDestination(m_TargettedPlayer.transform.position);
+		}
 
 		if(m_Agent.remainingDistance <= m_Agent.stoppingDistance)
 		{			

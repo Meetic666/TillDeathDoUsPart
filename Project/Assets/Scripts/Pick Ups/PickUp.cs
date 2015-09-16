@@ -27,29 +27,39 @@ public class PickUp : MonoBehaviour
 	// Update is called once per frame
 	protected virtual void Update () 
 	{
-		m_Time += Time.deltaTime;
+        UpdatePosition();
 
-		transform.position = m_InitialPosition + transform.up * GameConstants.PICK_UP_WAVE_AMPLITUDE * Mathf.Sin(m_Time * GameConstants.PICK_UP_WAVE_SPEED);
-
-		Vector3 newEulerAngles = transform.eulerAngles;
-		newEulerAngles.y = m_InitialEulerAngleY + m_Time * GameConstants.PICK_UP_ROTATION_SPEED;
-		transform.eulerAngles = newEulerAngles;
-
-		if(m_IsCollected)
-		{
-			m_CollectionTimer -= Time.deltaTime;
-
-			if(m_CollectionTimer <= 0.0f)
-			{
-				CollectVirtual(m_PlayerInteraction);
-
-				if(m_PlayerInteraction)
-				{
-					CollectionComplete ();
-				}
-			}
-		}
+        UpdateCollection();
 	}
+
+    void UpdatePosition()
+    {
+        m_Time += Time.deltaTime;
+
+        transform.position = m_InitialPosition + transform.up * GameConstants.PICK_UP_WAVE_AMPLITUDE * Mathf.Sin(m_Time * GameConstants.PICK_UP_WAVE_SPEED);
+
+        Vector3 newEulerAngles = transform.eulerAngles;
+        newEulerAngles.y = m_InitialEulerAngleY + m_Time * GameConstants.PICK_UP_ROTATION_SPEED;
+        transform.eulerAngles = newEulerAngles;
+    }
+
+    protected void UpdateCollection()
+    {
+        if (m_IsCollected)
+        {
+            m_CollectionTimer -= Time.deltaTime;
+
+            if (m_CollectionTimer <= 0.0f)
+            {
+                CollectVirtual(m_PlayerInteraction);
+
+                if (m_PlayerInteraction)
+                {
+                    CollectionComplete();
+                }
+            }
+        }
+    }
 
 	public void Collect(Interaction interaction)
 	{
